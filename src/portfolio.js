@@ -122,8 +122,7 @@ const educationInfo = {
       duration: "August 2021 - May 2025",
       
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        
       ]
     }
 
@@ -162,9 +161,17 @@ const workExperiences = {
       company: "Octanet",
       companylogo: require("./assets/images/111.jpg"),
       date: "May 2023 – July 2023",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "."
     }
+    ,
     
+    {
+      role: "Project Manager",
+      company: "Ricoz",
+      companylogo: require("./assets/images/e.jpg"),
+      date: "June 2024 – Nov 2024",
+      desc: ""
+    }
      
   ]
 };
@@ -180,29 +187,41 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Major Projects",
+  subtitle: "",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/b.jpg"),
+      projectName: "REAL TIME COLLABORATIVE CHATBOARD",
+      projectDesc: "The Whiteboard Application is a collaborative drawing tool that allows users to create and join real-time whiteboard sessions With a focus on simplicity and user experience, this application enables users to draw using various colors and brush sizes, undo/redo actions, and save the whiteboard content as images or PDFs.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://github.com/shivswrj/REAL-TIME-COLLABORATIVE-BOARD"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/d.jpg"),
+      projectName: "REACT VIDEO PLAYER",
+      projectDesc: " A user-friendly interface for video playback, offering features like play/pause controls, volume adjustment, full-screen mode, and support for various video formats and streaming protocols.A seamless and responsive video viewing experience across different devices and browsers",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://github.com/shivswrj/React-VideoPlayer/tree/main"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/a.jpg"),
+      projectName: "LIFELINES : THE BLOOD BANK",
+      projectDesc: "Developed a responsive Blood Bank website using the MERN stack, showcasing proficiency in MongoDB, Express.js, React.js,and Node.js.Features include donor registration, personalized dashboards, blood inventory tracking, and appointment scheduling for a seamless user experience.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://github.com/shivswrj/Blood-Bank"
         }
       ]
     }
