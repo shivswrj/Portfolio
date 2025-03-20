@@ -15,6 +15,7 @@ const splashScreen = {
 
 // Summary And Greeting Section
 
+
 const illustration = {
   animated: true // Set to false to use static SVG
 };
@@ -26,7 +27,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1HP0XI5SK-0yXWfb7kvMOadoMvGx7FUd-/view", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1VhEpmEQyt1dgtFjAcvzsZYJuW80k0zuj/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
